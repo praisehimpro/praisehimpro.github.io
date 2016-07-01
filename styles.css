@@ -1,12 +1,12 @@
 .splash {
     width: 100%;
     position: relative;
-    background-color: red;
 }
 
 img.splash__img {
     width: 100%;
     vertical-align: top;
+    height: auto;
 }
 
 .splash__txtc {
