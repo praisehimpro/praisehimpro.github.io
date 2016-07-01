@@ -1,0 +1,22 @@
+.splash {
+    width: 100%;
+    position: relative;
+}
+
+img.splash__img {
+    width: 100%;
+}
+
+.splash__txtc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 119px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
