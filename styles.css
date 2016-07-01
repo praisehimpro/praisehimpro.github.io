@@ -1,10 +1,12 @@
 .splash {
     width: 100%;
     position: relative;
+    background-color: red;
 }
 
 img.splash__img {
     width: 100%;
+    vertical-align: top;
 }
 
 .splash__txtc {
@@ -19,4 +21,76 @@ img.splash__img {
     font-weight: 100;
     font-family: sans-serif;
     margin-left: 20px;
+}
+
+
+.intro__txt {
+    font-size: 29px;
+    max-width: 800px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+section.intro {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goto__btn {
+    display: flex;
+    padding: 17px;
+    background: #CC181E;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+section.goto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.goto__btn:hover {
+    text-decoration: underline;
+}
+
+section.credits {
+    display: flex;
+    justify-content: center;
+}
+
+.credits__col {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.foot__img {
+    width: 100%;
+}
+
+section.foot {
+    margin-top: 34px;
+}
+
+a {
+    text-decoration: none;
+    color: #08c;
+}
+
+a:hover {
+    text-decoration: underline;
 }
